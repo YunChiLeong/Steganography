@@ -65,12 +65,20 @@ bool Steganography::willMessageFit()
 	
 }
 
-int * Steganography::string2Ascii(char * message)
+void * Steganography::string2Ascii(string message)
 {
-	return nullptr;
+	for(int i = 0; i < message.length(); i++){
+	cout << (int)message[i] << endl; 
+	}
 }
 
 char * Steganography::Ascii2String(int * bitString)
 {
 	return nullptr;
+}
+
+int main()
+{
+
+return 0;
 }
